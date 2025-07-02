@@ -14,6 +14,8 @@ This tool processes the output of security tools (like nmap, nikto, etc.) using 
 
 ![Пример работы с Ffuf](screenshots/2.png)
 
+![Обработка OpenAPI спецификации](screenshots/3.png)
+
 ## Installation
 
 ```bash
