@@ -10,6 +10,10 @@ This tool processes the output of security tools (like nmap, nikto, etc.) using 
 - **Visual Feedback**: Animated spinner during AI processing
 - **Markdown Formatting**: Beautiful rendering of AI results
 
+![Пример работы с Nmap](screenshots/1.png)
+
+![Пример работы с Ffuf](screenshots/2.png)
+
 ## Installation
 
 ```bash
