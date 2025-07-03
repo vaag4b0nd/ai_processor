@@ -50,6 +50,8 @@ nikto -host target.com | ./ai_processor.py -ai "List critical vulnerabilities" \
 | `--api-key`    | API key for providers                   | From ENV vars |
 | `--model`      | Model name (e.g. `gpt-4`, `llama2`)    | Provider default |
 | `--no-live`    | Disable live output of security tool    | Live output enabled |
+| `--chat`       | Enable interactive chat for follow-up questions    | Disabled |
+| `--file`       | Save AI responses to a Markdown file               | Output in file .md |
 
 ## Workflow Demonstration
 
@@ -95,6 +97,11 @@ PORT    STATE SERVICE  VERSION
                END OF ANALYSIS               
 ==================================================
 ```
+
+![Анализ исходного кода PHP приложения](screenshots/4.png)
+
+![Чат для уточнения](screenshots/5.png)
+
 
 ## Tips
 
